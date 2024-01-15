@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+/*
+   El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte
+   del cálculo del ancho de la caja.
+ */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: 'Lilita One', sans-serif;
+    background: #38c8ff;
+}
+
+form {
+    width: 300px;
+    padding: 25px;
+    display: grid;
+    place-content: center;
+    grid-gap: 10px;
+    background: #f8feff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #c3c3c3;
+}
+
+.button {
+    background: #38c8ff;
+    color: white;
+    font-family: 'Lilita One', sans-serif;
+    font-size: large;
+}
+
+input {
+    border: none;
+    background: #e9e9e9;
+    border-radius: 10px;
+    height: 30px;
+    width: 225px;
+}
+
+input[type=text], input[type=email] {
+
+    outline: none;
+}
+
+label:first-of-type {
+    color: #38c8ff;
+    font-size: xx-large;
+}
+
+label {
+    color: #b7b9b9;
+    font-size: larger;
+}
